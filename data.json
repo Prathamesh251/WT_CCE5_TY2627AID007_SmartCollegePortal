@@ -1,0 +1,174 @@
+{
+  "departments": [
+    {
+      "id": "cs",
+      "name": "Artificial Intelligence & Data Science",
+      "code": "AIDS",
+      "description": "Pioneering education and research in machine learning, deep learning, big data analytics, and generative AI systems.",
+      "hod": "Dr. S. K. Patil",
+      "intake": 120,
+      "labs": ["Deep Learning Lab", "Cloud Computing Lab", "Data Analytics Lab", "IoT & Robotics Lab"],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "comp",
+      "name": "Computer Engineering",
+      "code": "COMP",
+      "description": "Focussing on algorithms, distributed computing, cybersecurity, software engineering, and systems programming.",
+      "hod": "Dr. R. M. Sharma",
+      "intake": 180,
+      "labs": ["High-Performance Computing Lab", "Cybersecurity Lab", "Software Testing Lab"],
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "entc",
+      "name": "Electronics & Telecommunication",
+      "code": "E&TC",
+      "description": "Focusing on embedded hardware, signal processing, VLSI design, wireless communication, and smart sensors.",
+      "hod": "Dr. P. V. Kulkarni",
+      "intake": 120,
+      "labs": ["VLSI Design Lab", "Embedded Systems Lab", "Advanced Communication Lab"],
+      "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "mech",
+      "name": "Mechanical Engineering",
+      "code": "MECH",
+      "description": "Providing advanced hands-on expertise in robotics, CAD/CAM design, thermodynamics, and autonomous automation.",
+      "hod": "Dr. A. N. Joshi",
+      "intake": 60,
+      "labs": ["Robotics & Automation Lab", "Fluid Mechanics Lab", "CAD/CAM Simulation Center"],
+      "image": "https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&w=600&q=80"
+    }
+  ],
+  "courses": [
+    {
+      "code": "AD124PE507.1",
+      "name": "Web Technology 1",
+      "department": "Artificial Intelligence & Data Science",
+      "semester": "Semester V",
+      "credits": 3,
+      "description": "Single-page application (SPA) paradigms, responsive design, modern JavaScript (ES6+), DOM manipulation, and REST API integration."
+    },
+    {
+      "code": "AD124PE508.1",
+      "name": "Machine Learning Fundamentals",
+      "department": "Artificial Intelligence & Data Science",
+      "semester": "Semester V",
+      "credits": 4,
+      "description": "Supervised, unsupervised algorithms, model evaluation metrics, optimization techniques, and feature engineering."
+    },
+    {
+      "code": "CO124PE501.1",
+      "name": "Database Management Systems",
+      "department": "Computer Engineering",
+      "semester": "Semester V",
+      "credits": 4,
+      "description": "Relational algebra, SQL, normalization, concurrency control, transaction processing, and NoSQL databases."
+    },
+    {
+      "code": "CO124PE502.1",
+      "name": "Computer Networks & Security",
+      "department": "Computer Engineering",
+      "semester": "Semester V",
+      "credits": 3,
+      "description": "OSI & TCP/IP stack, routing protocols, socket programming, cryptography, and network defense strategies."
+    },
+    {
+      "code": "ET124PE503.1",
+      "name": "Microcontrollers & Embedded IoT",
+      "department": "Electronics & Telecommunication",
+      "semester": "Semester V",
+      "credits": 3,
+      "description": "ARM Cortex architecture, sensor interfacing, real-time operating systems, and MQTT protocols."
+    },
+    {
+      "code": "ME124PE504.1",
+      "name": "Automated Robotics & Control",
+      "department": "Mechanical Engineering",
+      "semester": "Semester V",
+      "credits": 3,
+      "description": "Kinematics, dynamics, PLC automation, robotic arm programming, and industrial vision systems."
+    }
+  ],
+  "faculty": [
+    {
+      "id": 1,
+      "name": "Dr. Alice Smith",
+      "designation": "Professor & HOD",
+      "department": "Artificial Intelligence & Data Science",
+      "qualification": "Ph.D. in Artificial Intelligence (IIT Bombay)",
+      "experience": "15+ Years",
+      "specialization": "Deep Learning, Natural Language Processing, Computer Vision",
+      "email": "alice.smith@college.edu",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Prof. John Doe",
+      "designation": "Associate Professor",
+      "department": "Electronics & Telecommunication",
+      "qualification": "M.Tech in Control Systems & VLSI",
+      "experience": "11 Years",
+      "specialization": "Embedded IoT, Smart Grids, Digital Signal Processing",
+      "email": "john.doe@college.edu",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Emily Chen",
+      "designation": "Assistant Professor",
+      "department": "Mechanical Engineering",
+      "qualification": "Ph.D. in Robotics & Mechatronics",
+      "experience": "9 Years",
+      "specialization": "Kinematics, Industrial Automation, Cyber-Physical Systems",
+      "email": "emily.chen@college.edu",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Prof. David Miller",
+      "designation": "Assistant Professor",
+      "department": "Computer Engineering",
+      "qualification": "M.S. in Cybersecurity & Cloud Computing",
+      "experience": "8 Years",
+      "specialization": "Full-Stack Web Architectures, Distributed Systems, Cloud Security",
+      "email": "david.miller@college.edu",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+    }
+  ],
+  "notices": [
+    {
+      "id": 1,
+      "title": "CCE-5 Unit V Mini Project Presentation Schedule",
+      "date": "2026-11-18",
+      "category": "Academic",
+      "badge": "Urgent",
+      "description": "Students must present their Single Page Application (SPA) in their assigned lab slot with active GitHub repositories."
+    },
+    {
+      "id": 2,
+      "title": "Annual Tech Symposium & Hackathon Registrations Open",
+      "date": "2026-11-25",
+      "category": "Events",
+      "badge": "New",
+      "description": "Registrations are now open for HackAI 2026. Exciting cash prizes and internship opportunities for winning teams."
+    },
+    {
+      "id": 3,
+      "title": "Semester V End Semester Practical Examination Timetable",
+      "date": "2026-12-05",
+      "category": "Examinations",
+      "badge": "Important",
+      "description": "The tentative schedule for practical examinations for T.Y. (AI&DS and COMP) has been published on the notice board."
+    },
+    {
+      "id": 4,
+      "title": "Campus Placement Drive: Top Tier Tech Companies",
+      "date": "2026-12-10",
+      "category": "Placement",
+      "badge": "Career",
+      "description": "Eligible candidates are instructed to upload their updated resume and portfolio links to the placement portal before Nov 30."
+    }
+  ]
+}

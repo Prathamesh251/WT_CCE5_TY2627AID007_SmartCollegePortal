@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart College Website Portal - Single Page Application for departments, courses, faculty, notices, and student admissions enquiry.">
+    <title>Smart College Website Portal | SPA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="brand">
+                <a href="#home" class="brand-link">
+                    <span class="brand-icon">🎓</span>
+                    <div class="brand-text">
+                        <span class="brand-title">Smart College</span>
+                        <span class="brand-subtitle">Portal &bull; T.Y. AI&amp;DS</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger Toggle -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <!-- Navigation Links (SPA Client-Side Routing via Hashes) -->
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active" data-route="home">Home</a></li>
+                    <li><a href="#departments" class="nav-link" data-route="departments">Departments</a></li>
+                    <li><a href="#courses" class="nav-link" data-route="courses">Courses</a></li>
+                    <li><a href="#faculty" class="nav-link" data-route="faculty">Faculty</a></li>
+                    <li><a href="#notices" class="nav-link" data-route="notices">Notices</a></li>
+                    <li><a href="#enquiry" class="nav-link nav-btn" data-route="enquiry">Enquire Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Dynamic Content Area for SPA View Rendering -->
+    <main id="app" class="content-container" role="main">
+        <!-- Views will be dynamically rendered here by app.js without page reload -->
+        <div class="loading-state">
+            <div class="spinner"></div>
+            <p>Loading Smart College Portal...</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="footer-brand">
+                    <span class="brand-icon">🎓</span>
+                    <span class="brand-title">Smart College Portal</span>
+                </div>
+                <p class="footer-desc">
+                    An interactive Single Page Application (SPA) built for Web Technology 1 (AD124PE507.1), showcasing client-side routing, dynamic JSON data retrieval, responsive design, and student admission inquiries.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home Overview</a></li>
+                    <li><a href="#departments">Academic Departments</a></li>
+                    <li><a href="#courses">Curriculum &amp; Courses</a></li>
+                    <li><a href="#faculty">Distinguished Faculty</a></li>
+                    <li><a href="#notices">Campus Notices</a></li>
+                    <li><a href="#enquiry">Admissions Enquiry</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-heading">Contact &amp; Campus</h4>
+                <p class="footer-contact">📍 D. Y. Patil Educational Complex, Akurdi, Pune - 411044</p>
+                <p class="footer-contact">📞 +91 (020) 2765-3058</p>
+                <p class="footer-contact">✉️ info@smartcollege.edu.in</p>
+                <div class="spa-badge">⚡ Pure Vanilla JS SPA &bull; Zero Reloads</div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Smart College Portal. Built as per CCE-5 Guidelines (Department of Artificial Intelligence &amp; Data Science).</p>
+        </div>
+    </footer>
+
+    <!-- Single SPA Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>
